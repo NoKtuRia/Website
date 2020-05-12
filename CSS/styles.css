@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #0C7EFF;
+}
+
+
+/* Header */
+header {
+    background: url(../img/programming-1873854_1920.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+
+.header .h-title {
+    color: #fff;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.header .h-para {    
+    position: relative;
+    color: #fff;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+
+/* Menu navigation */
+nav.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: #0901FE;
+    border-top: solid 7px rgba(3, 0, 85, 0.8);
+    border-bottom: solid 7px rgba(3, 0, 85, 0.8);
+}
+
+nav.nav ul li.n-item {
+    margin: 0 10px 0 10px;
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav.nav ul li.n-item a {
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 25px 20px 25px 20px;
+    margin: 0 10px 0 10px;
+    background-color: #0901FE;
+}
+
+nav.nav ul li.n-item a:hover {
+    background-color: rgba(3, 0, 85, 0.5);
+    text-decoration: underline;
+}
+
+/* Formulaire inscription */
+
+
+div.formulaire {
+    align-items: center;
+    border-radius: 30px;
+    width: 80%;
+    height: 700px;
+    margin: 20px 10% 20px 10%;
+    background-color: #fff;
+}
+
+div.formulaire h1 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.form-inscri {
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-i-items label, input{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    position: static;
+}
+
+.submit-btn, .redirect-btn {
+    font-size: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid 2px;
+}
+
+.submit-btn:hover, .redirect-btn:hover {
+    box-shadow: 0px 0px 0px 0px 2px rgba(3, 0, 85, 0.8);
+}
+/* Formulaire de connexion */
+
+div.form-connect {
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-c-items label, input{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
